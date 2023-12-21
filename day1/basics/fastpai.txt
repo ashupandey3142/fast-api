@@ -1,0 +1,33 @@
+FastAPI is a modern, fast (as the name implies), web framework for building APIs with Python 3.7+ based on standard Python type hints.
+It is designed to be easy to use, high-performance, and to provide automatic generation of OpenAPI and JSON Schema documentation.
+Some key features of FastAPI include:
+
+Fast: FastAPI is built on top of Starlette and Pydantic, taking advantage of asynchronous programming and type hints to achieve high performance.
+It is one of the fastest Python web frameworks available.
+
+Automatic Docs: FastAPI automatically generates OpenAPI and JSON Schema documentation for your API.
+This is done based on the type hints in your code, reducing the need for manual documentation.
+
+Type Checking: It leverages Python type hints for request and response validation.
+This not only improves the readability of your code but also allows for automatic validation and documentation generation.
+
+Asynchronous Support: FastAPI supports asynchronous programming, making it well-suited for handling a large number of concurrent connections efficiently.
+
+Dependency Injection: It comes with a built-in dependency injection system, making it easy to manage and reuse components in your application.
+
+Security: FastAPI includes security features by default, such as automatic validation of request data, preventing common
+security issues like SQL injection and cross-site scripting (XSS).
+
+
+
+
+brief comparison of FastAPI with Django and Flask:
+
+Automatic Documentation:
+FastAPI automatically generates API documentation, while in Django and Flask, you often need to use additional tools or write documentation manually.
+
+Type Hints and Validation:
+FastAPI relies heavily on Python type hints for request and response validation, providing a clear structure to your code.
+Django and Flask typically use manual validation or form validation, which may not be as concise.
+
+FastAPI is particularly well-suited for building APIs, microservices, and applications where high performance and automatic documentation are critical.
